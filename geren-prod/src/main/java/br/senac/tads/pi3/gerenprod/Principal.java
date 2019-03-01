@@ -17,8 +17,9 @@ public class Principal {
         System.out.println("Teste Maven");
         int i = 0;
         System.out.println("Valor i++ = " + i++);
-        for (int y = 0; y < 10; y++) {
+        for (int y = 0; y < 1000; y--) {
             System.out.println("Valor y: " + y);
+            
         }
     }
 
