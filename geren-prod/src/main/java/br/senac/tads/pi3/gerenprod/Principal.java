@@ -19,7 +19,11 @@ public class Principal {
         System.out.println("Valor i++ = " + i++);
         for (int y = 0; y < 1000; y--) {
             System.out.println("Valor y: " + y);
-            
+        }
+        if (i % 2 == 0) {
+            System.out.println("Número par");
+        } else {
+            System.out.println("Número ímpar");
         }
         System.out.println("Correção bug");
     }
