@@ -21,6 +21,7 @@ public class Principal {
             System.out.println("Valor y: " + y);
             
         }
+        System.out.println("Correção bug");
     }
 
 }
